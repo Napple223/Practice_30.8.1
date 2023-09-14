@@ -1,5 +1,7 @@
 /*схема БД */
 
+DROP TABLE IF EXISTS users, labels, tasks_labels, tasks
+
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL
